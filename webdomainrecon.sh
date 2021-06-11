@@ -90,28 +90,28 @@ echo "Now lets see what these suckers look like!!!"
 
 sleep 2
 
-#echo "Running GoWitness..."
+echo "Running GoWitness..."
 
-#gowitness file -s $varfile2 -t 40 -d $vardir
+gowitness file -s $varfile2 -t 40 -d $vardir
 
-#echo "done"
+echo "done"
 
-#sleep 2
+sleep 2
 
-#echo "Removing unnecessery files"
+echo "Removing unnecessery files"
 
 sleep 1
 
-#rm $varfile1 && rm $varfile2 
+rm $varfile1 && rm $varfile2 
 
 echo "Now lets check out what we have!!!"
 
-#sleep 1
+sleep 1
 
-#echo "Starting http server on localhost port 8000"  
+echo "Starting http server on localhost port 8000"  
 
-#sleep 2
+sleep 2
 
-#python3 -m http.server
+python3 -m http.server
 
 
